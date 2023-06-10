@@ -229,14 +229,13 @@ max-width: 1440px;
 /* SECTION 2 */
 .icons-second-cont-list{
   display:flex;
+  align-items:center;
+  justify-content:center;
    gap:24px;
-  list-style-type: none;
-  
-
+ 
 }
 
 .icons-container{
-  display:flex;
   align-items:center;
   justify-content:center;
   background-color: var(--footer-color);
@@ -255,7 +254,14 @@ max-width: 1440px;
    padding-bottom: 120px;
  } 
 .visually-hidden {
-   position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden; 
+   position: absolute;
+    width: 1px; 
+    height: 1px; margin: -1px;
+     border: 0; padding: 0;
+      white-space: nowrap;
+       clip-path: inset(100%);
+        clip: rect(0 0 0 0); 
+        overflow: hidden; 
   }
   .second-list{
     display: flex;
