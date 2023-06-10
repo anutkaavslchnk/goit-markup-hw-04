@@ -236,6 +236,7 @@ max-width: 1440px;
 }
 
 .icons-container{
+  display:flex;
   align-items:center;
   justify-content:center;
   background-color: var(--footer-color);
@@ -672,9 +673,7 @@ margin-bottom: 72px;
   border: 1px solid var(--white-unusual-color);
 border-radius: 4px;
  padding: 12px 24px;
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .btn-items:hover,
 .btn-items:focus {
@@ -689,6 +688,7 @@ border-radius: 4px;
   list-style-type: none;
 }
 /* CARDS */
+
 .bio-cards-link{
   display:block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
@@ -696,6 +696,7 @@ border-radius: 4px;
 .bio-cards-link:hover,
 .bio-cards-link:focus{
   box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform:translateY(0%);
 }
 .bio-cards-list:hover .portfolio-scroll-window{
 transform: translate(0);
@@ -721,10 +722,17 @@ transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-/* or 150% */
-
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color:var(--footer-color);
+position: absolute;
+top: 0; 
+left:0;
+padding: 40px 32px;
+background-color: #4d5ae5;
+height: 100%; 
+width: 100%; 
+transform:translateY(100%);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .link-port{
