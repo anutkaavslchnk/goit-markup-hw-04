@@ -675,12 +675,22 @@ border-radius: 4px;
   color: var(--white-color);
   background-color: var(--ocean-color);
   min-width: 69px;
-  border: 1px solid transparent
+  border: 1px solid transparent;
+  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+
 }
 .btn > li {
   list-style-type: none;
 }
 /* CARDS */
+.bio-cards-link{
+  display:block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+}
+.bio-cards-link:hover,
+.bio-cards-link:focus{
+  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .bio-cards-list:hover .portfolio-scroll-window{
 transform: translate(0);
 transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
