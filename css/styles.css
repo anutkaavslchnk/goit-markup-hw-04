@@ -489,8 +489,8 @@ width: calc((100% - 3 * 24px) / 4);
   border-color:var(--ocean-color); 
 }
 .fifth-sec{
-  color: #8E8F99; 
-   border: 1px solid #8E8F99;
+   color: var(--white-grey-color); 
+   border: 1px solid var(--white-grey-color);
 }
 .cus-icons{
 fill:currentColor;
