@@ -29,12 +29,13 @@ ol {
 img{
   display:block;
 }
-/* .container {
+.container {
    width: 1158px;
  padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
-} */
+ 
+}
+/* outline: 2px solid red; */
 body {
   font-family: Roboto, sans-serif;
   color: #2e2f42;
@@ -489,7 +490,6 @@ width: calc((100% - 3 * 24px) / 4);
 }
 
 .cus-icons{
-
 fill:currentColor;
 }
 .customers{
@@ -688,15 +688,15 @@ border-radius: 4px;
   display:block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
-.bio-cards-link:hover,
-.bio-cards-link:focus {
-  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.bio-cards-link:hover .paragraph-scroll-window,
+.bio-cards-link:focus .paragraph-scroll-window {
+  
   transform:translateY(0%);
 }
-/* .bio-cards-list:hover .portfolio-scroll-window{
-transform: translate(0);
-transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+.bio-cards-link:hover,
+.bio-cards-link:focus{
+  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-scroll-window{
   position:absolute;
   background-color: #4D5AE5;
@@ -709,9 +709,7 @@ transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow:hidden;
 }
-.bio-cards-list:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 .paragraph-scroll-window{
   position: absolute;
 top: 0; 
