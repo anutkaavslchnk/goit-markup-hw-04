@@ -538,10 +538,11 @@ justify-content: center;
 .footer-icon-link:hover,
 .footer-icon-link:focus{
   background-color:#31d0aa;
+  fill:var(--footer-color);
 }
 
 .footer-svg{
-  fill:var(--footer-color);
+  
 }
 .footer-icon{
   border-radius:50%;
