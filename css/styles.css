@@ -493,8 +493,8 @@ width: calc((100% - 3 * 24px) / 4);
 fill:currentColor;
 }
 .customers{
-  padding-top: 120px;
- padding-bottom: 120px; 
+  padding-top: 120px; 
+   padding-bottom: 120px; 
 }
 .customers-list{
   display:flex;
